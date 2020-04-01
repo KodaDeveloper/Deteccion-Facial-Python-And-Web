@@ -1,0 +1,55 @@
+/*
+ * style.css
+ */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,400,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+
+li{
+  list-style-type: none;
+}
+
+body{
+     font-family: 'Roboto', sans-serif;
+    background-color: #303030;
+}
+
+
+
+/*------------------------------*/
+
+.main{
+  background-color: #161616;
+  height: 450px;
+  clip-path: polygon(50% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%, 0 0);
+
+
+}
+
+.main-section{
+  padding-top: 8%;
+}
+
+.tittle-main-section{
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+}
+
+
+.desc-main-section{
+  color: #cbc4cb;
+  font-size: 20px;
+  line-height: 1.6
+}
+
+.panel-color{
+  background-color: #161616;
+  color: #ffaa00;
+  border-radius: 20px;
+}
+
+
+.input-custom{
+  
+}
