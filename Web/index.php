@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include 'bd/conn.php';
 
@@ -12,9 +12,9 @@ include 'bd/conn.php';
     $diretorio = "img";
     $arquivo_temporario = $_FILES['imagem']['tmp_name'];
     move_uploaded_file($arquivo_temporario, $diretorio."/".$nome_img);
-  
-   
-    
+
+
+
 
 
 
@@ -30,15 +30,16 @@ include 'bd/conn.php';
   }
 
   $consult = "SELECT * FROM reconhecimento ORDER BY id DESC ";
+  $consult_second = "SELECT * FROM reconhecimento WHERE status = 'IMGRC' ORDER BY id DESC ";
   $reconhecimento = mysqli_query($conecta,$consult);
-  $reconhecimento2 = mysqli_query($conecta,$consult);
+  $reconhecimento_second = mysqli_query($conecta,$consult_second);
 
   if (!$reconhecimento) {
     die("Error consulta");
   }
 
 
-  $row = $reconhecimento2 -> fetch_assoc();
+  $row = $reconhecimento -> fetch_assoc();
 ?>
 
 <!DOCTYPE html>
@@ -54,7 +55,7 @@ include 'bd/conn.php';
   <link rel="icon" type="imagem/png" href="img/logo.png" />
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="https://kit.fontawesome.com/2463b1ceea.js" crossorigin="anonymous"></script>
- 
+
 
 </head>
 
@@ -77,7 +78,7 @@ include 'bd/conn.php';
       <div class="triangle">
 
         <center>
-          
+
         </center>
 
       </div>
@@ -99,7 +100,7 @@ include 'bd/conn.php';
         <h3>Cadastro</h3>
       </div>
       <div class="panel-body text-center">
-            
+
            <form action="index.php" method="post" enctype="multipart/form-data">
 
               <div class="form-group">
@@ -130,8 +131,8 @@ include 'bd/conn.php';
         <h3>Ultimo registro:</h3>
       </div>
       <div class="panel-body text-center">
-         
-       
+
+
           <p>ID: <?php echo $row['id']; ?></p>
           <p>Nome: <?php echo $row['nome']; ?></p>
           <p>Sobrenome: <?php echo $row['sobrenome']; ?></p>
@@ -142,7 +143,7 @@ include 'bd/conn.php';
              <img width="300" height="240" src="img/<?php echo $row['nome_img']; ?>">
            </center>
 
-        
+
 
       </div>
     </div>
@@ -156,12 +157,12 @@ include 'bd/conn.php';
         <h6>IMGRC: Imagem Reconhecida</h6>
       </div>
       <div class="panel-body text-center">
-         <?php while ($registro = mysqli_fetch_assoc($reconhecimento)) {
+         <?php while ($registro = mysqli_fetch_assoc($reconhecimento_second)) {
          ?>
-         
+
         <div class="col-md-3">
-          
-       
+
+
           <p>ID: <?php echo $registro['id']; ?></p>
           <p>Nome: <?php echo $registro['nome']; ?></p>
           <p>Sobrenome: <?php echo $registro['sobrenome']; ?></p>
@@ -171,15 +172,15 @@ include 'bd/conn.php';
             Imagem:
           </p>
              <img width="220" height="240" src="img/<?php echo $registro['nome_img']; ?>">
-          
 
-          
+
+
         </div>
 <?php } ?>
       </div>
     </div>
   </div>
-  
+
 </section>
 
 
@@ -187,7 +188,7 @@ include 'bd/conn.php';
 
 
 
- 
+
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
