@@ -1,6 +1,6 @@
 <p align="center">
  <img width="100px" src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text_.png" align="center" alt="OpenCV" />
- <h2 align="center">Koda - Detecção Facial</h2>
+ <h2 align="center">Wicaro Mendes (Koda) - Detecção Facial</h2>
 </p>
 <br>
 <p align="center">
