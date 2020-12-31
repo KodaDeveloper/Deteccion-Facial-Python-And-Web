@@ -1,12 +1,12 @@
 <p align="center">
- <img width="100px" src="https://github.com/Wicaro/RazeHost/blob/master/img/logo.png" align="center" alt="GitHub Readme Stats" />
+ <img width="100px" src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text_.png" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">Koda - Detecção Facial</h2>
 </p>
 <br>
 <p align="center">
  
   <a href="https://raze.host/">
-      <img src="https://img.shields.io/badge/RazeHost%20-Site%E2%86%92-gray.svg?colorA=FF0000&colorB=FF0000&style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/OpenCV%20-Site%E2%86%92-gray.svg?colorA=FF0000&colorB=FF0000&style=for-the-badge"/>
     </a>
    
 
