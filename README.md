@@ -1,11 +1,11 @@
 <p align="center">
- <img width="100px" src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text_.png" align="center" alt="GitHub Readme Stats" />
+ <img width="100px" src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text_.png" align="center" alt="OpenCV" />
  <h2 align="center">Koda - Detecção Facial</h2>
 </p>
 <br>
 <p align="center">
  
-  <a href="https://raze.host/">
+  <a href="https://opencv.org/">
       <img src="https://img.shields.io/badge/OpenCV%20-Site%E2%86%92-gray.svg?colorA=FF0000&colorB=FF0000&style=for-the-badge"/>
     </a>
    
@@ -24,19 +24,20 @@
 
 - 👨‍💻 Detecção Facial  ->  **OpenCv + Python + PHP**.
 
-**Como configurar**
+**Passo a passo**
 <br/>
 - 1️⃣ Download Python  ->  https://www.python.org/downloads/.
 - 2️⃣ Instalação OpenCv + PyMysql ->  *pip install opencv-python* - *pip install PyMySQL*.
 - 3️⃣ Download + Instalação Xampp https://www.apachefriends.org/pt_br/download.html
 - 4️⃣ Coloque todos os arquivos na sua pasta do Htdocs do seu xampp:
+```python
     {
-      Ligue seu Xampp -> Apache + PHPmyadmin
-      Abra o PHPmyadmin -> Crie uma table chamada OpenCv e importe o SQL 
+      Ligue seu Xampp -> Apache + Mysql
+      Abra o Mysql -> Crie uma table chamada OpenCv e importe o SQL 
       Abra o arquivo *web/db/conn.php* e configure o banco de dados
       Feito tudo isso abra o web/index.php, preencha o formulário e envie, agora execute o index.py
     }
-
+```
 
 
 
@@ -44,7 +45,7 @@
 
 
 ![Python](http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)
-![OpenCV](http://img.shields.io/badge/-Open%20CV-007ACC?style=flat-square&logo=Open-CV&logoColor=ffffff)
+![OpenCV](http://img.shields.io/badge/-Open%20CV-FF0000?style=flat-square&logo=Open-CV&logoColor=ffffff)
 ![Mysql](https://img.shields.io/badge/-Mysql-FFCA28?style=flat-square&logo=mysql&logoColor=ffffff)
 ![PHP](http://img.shields.io/badge/-PHP-3776AB?style=flat-square&logo=php&logoColor=ffffff)
 ![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
