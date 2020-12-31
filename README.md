@@ -34,7 +34,7 @@
     {
       Ligue seu Xampp -> Apache + Mysql
       Abra o Mysql -> Crie uma table chamada OpenCv e importe o SQL 
-      Abra o arquivo *web/db/conn.php* e configure o banco de dados
+      Abra o arquivo web/db/conn.php e configure o banco de dados
       Feito tudo isso abra o web/index.php, preencha o formulário e envie, agora execute o index.py
     }
 ```
