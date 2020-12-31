@@ -44,7 +44,7 @@
 
 
 ![Python](http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)
-![OpenCV](http://img.shields.io/badge/-Open%20CV-007ACC?style=flat-square&logo=open-cv&logoColor=ffffff)
+![OpenCV](http://img.shields.io/badge/-Open%20CV-007ACC?style=flat-square&logo=Open-CV&logoColor=ffffff)
 ![Mysql](https://img.shields.io/badge/-Mysql-FFCA28?style=flat-square&logo=mysql&logoColor=ffffff)
 ![PHP](http://img.shields.io/badge/-PHP-3776AB?style=flat-square&logo=php&logoColor=ffffff)
 ![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
